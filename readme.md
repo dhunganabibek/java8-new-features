@@ -72,12 +72,33 @@ functional expression and our method should have same argument types.
  referred by functional interface
 
 
- ## constructor refernces
+ ## constructor references
  classnname::new
 
  ```
  In method and constructor references compulsory the argument types must be matched
  ```
+
+ ## Consumer
+ Takes one input and return nothings
+
+ ``` java
+ interfaec Consumer<T>{
+    public void accpet(T t);
+ }
+ ```
+
+ ## Supplier
+ ``` java
+ interface Supplier<R>{
+    public R get();
+ }
+ ```
+
+ ## Comparison
+
+ ![Comparision ](./assets/comparision.jpg)
+
 
 ## Stream Api
 
